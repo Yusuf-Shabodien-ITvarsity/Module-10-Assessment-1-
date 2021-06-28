@@ -1,0 +1,167 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+    background-image: url(img/carspeedlines.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*========================================= FORM & INPUTS==================================================================*/
+#myForm {
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.73);
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 3px 5px 60px white;
+    
+}
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+input {
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 3px solid #1E90FF;
+    padding: 15px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    transition: 0.25px;
+}
+
+input[type="text"]:focus,
+input[type="firstname"]:focus {
+
+    width: 270px;
+    border-color: #0367fd;
+
+}
+
+
+/*========================================= bUTTONS & TEXT ==================================================================*/
+
+#submitForm {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #DC143C;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+
+#submitForm:hover {
+    background: rgba(13, 109, 239, 0.49);
+    font-size: 20px;
+
+
+}
+
+
+#greeting {
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+#getData {
+    position: absolute;
+    bottom: 90%;
+    left: 80%;
+   
+    border: 0;
+    background-color: black;
+
+    border: 3px solid #00FF00;
+    padding: 14px 35px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+
+
+#getData:hover {
+    background: rgba(13, 109, 239, 0.49);
+    font-size: 18px;
+
+}
+
+#getList {
+    position: absolute;
+    bottom: 90%;
+    left: 10%;
+    border: 0;
+    background-color: black;
+
+    border: 3px solid #00FF00;
+    padding: 14px 35px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+
+#getList:hover {
+    background: rgba(13, 109, 239, 0.49);
+    font-size: 18px;
+
+}
+
+#posts {
+    position: absolute;
+    top:20%;
+    left: 5%;
+
+    background-color: rgba(0, 0, 0, 0.73);
+    width: 320px;
+    color: white;
+    border-radius: 24px;
+    padding-left: 15px;
+
+}
+
+#message {
+    position: absolute;
+    left: 80%;
+    bottom: 75%;
+    color: #DC143C;
+
+    padding: 10px 10px;
+
+    font-size: 18px;
+    text-transform: uppercase
+}
